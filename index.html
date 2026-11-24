@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Evelina | Digital Marketing Portfolio</title>
+<meta name="description" content="Evelina is studying Digital Marketing in London. See her concept campaigns, SEO strategy and her developing brand, Golden Mess.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Evelina | Digital Marketing Portfolio">
+<meta property="og:description" content="Concept campaigns, an SEO strategy and a developing brand, Golden Mess. Created by a Digital Marketing student in London.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23B98A2E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#F1EFEB;--surface:#F8F6F3;--ink:#25221F;--mute:#645E56;--line:#D8D3CA;--gold:#B98A2E;--goldtext:#7A5612;--band:#2A2724;--bandink:#EFEAE1;--bandmute:#B5ADA1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#191715;--surface:#23201D;--ink:#EEE9E1;--mute:#A59E93;--line:#38342F;--gold:#D4A94F;--goldtext:#DDB96B;--band:#100F0D}}
+:root[data-theme="dark"]{--bg:#191715;--surface:#23201D;--ink:#EEE9E1;--mute:#A59E93;--line:#38342F;--gold:#D4A94F;--goldtext:#DDB96B;--band:#100F0D}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 Figtree,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,system-ui,sans-serif;line-height:1.08;letter-spacing:-.02em;margin:0}
+p{margin:0 0 1em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 clamp(1.25rem,5vw,3rem)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:3.75rem;flex-wrap:wrap}
+.logo{font:700 1.25rem "Bricolage Grotesque",sans-serif;text-decoration:none;letter-spacing:-.02em}
+nav{display:flex;gap:clamp(.75rem,2.5vw,1.75rem);flex-wrap:wrap}
+nav a{text-decoration:none;font-size:.95rem;color:var(--mute);padding:.25rem 0;border-bottom:2px solid transparent}
+nav a:hover{color:var(--ink);border-color:var(--gold)}
+section{padding:clamp(4rem,10vw,7.5rem) 0}
+h2{font-size:clamp(2rem,4.5vw,3.25rem);font-weight:700}
+.mute{color:var(--mute)}
+/* hero */
+.hero{padding:clamp(3rem,8vw,6rem) 0 clamp(2rem,5vw,4rem)}
+.hero .who{color:var(--mute);margin-bottom:1.5rem}
+h1{font-size:clamp(2.5rem,7.4vw,5.6rem);font-weight:700;letter-spacing:-.035em}
+h1 span{display:block}
+.hero-row{display:flex;gap:2rem 4rem;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;margin-top:2rem}
+.hero-row p{max-width:34rem;font-size:1.2rem;color:var(--mute);margin:0}
+.btn{display:inline-block;padding:.9rem 1.7rem;border-radius:999px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;border:2px solid var(--ink);transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:var(--gold);border-color:var(--gold);color:#1d1a16}
+.btn.alt{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.alt:hover{border-color:var(--gold);background:transparent;color:var(--ink)}
+.fig{margin-top:clamp(2.5rem,6vw,4.5rem);cursor:pointer}
+.fig svg{display:block;width:100%;height:auto;overflow:visible}
+.fig path{fill:none;stroke:var(--gold);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.fig circle{fill:var(--gold)}
+.fig figcaption{display:flex;justify-content:space-between;color:var(--mute);font-size:.95rem;border-top:1px solid var(--line);padding-top:.6rem;margin-top:.4rem}
+/* about */
+.about{display:grid;gap:2rem 5rem}
+@media(min-width:820px){.about{grid-template-columns:1fr 1.5fr}}
+.about p{font-size:1.15rem;max-width:40rem}
+/* skills */
+.skills{display:grid;gap:2.5rem;margin-top:3rem}
+@media(min-width:900px){.skills{grid-template-columns:1.35fr 1fr;gap:4rem}}
+.grp h3{font-size:1.4rem;margin-bottom:.25rem}
+.grp>p{color:var(--mute);margin-bottom:1rem}
+.row{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--line);padding:1rem 0}
+.row h4{margin:0 0 .15rem;font:600 1.05rem Figtree,sans-serif}
+.row p{margin:0;color:var(--mute);font-size:.98rem}
+.tags{display:flex;gap:.4rem;flex-wrap:wrap;justify-content:flex-end;align-content:flex-start;max-width:11rem}
+.tags a{font-size:.82rem;padding:.15rem .6rem;border:1px solid var(--gold);border-radius:999px;text-decoration:none;color:var(--goldtext);white-space:nowrap}
+.tags a:hover{background:var(--gold);color:#1d1a16}
+.grp.learn{border:2px dashed var(--line);padding:1.5rem;align-self:start;border-radius:4px}
+.grp.learn .row:first-of-type{border-top:0}
+/* projects */
+.list{display:grid;gap:1.5rem;margin-top:3rem}
+.card{position:relative;display:grid;gap:1.5rem 3rem;padding:clamp(1.5rem,4vw,2.5rem);background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:4px;transition:border-color .25s,transform .25s}
+@media(min-width:800px){.card{grid-template-columns:1.1fr 1fr}}
+.card:hover{border-color:var(--gold);transform:translateX(6px)}
+.card.real{border-left-color:var(--gold)}
+.card h3{font-size:clamp(1.6rem,3.2vw,2.3rem)}
+.card h3 a{text-decoration:none}
+.card h3 a::after{content:"";position:absolute;inset:0}
+.card .sub{color:var(--mute);margin:.5rem 0 0}
+.badge{display:inline-block;font-size:.85rem;font-weight:600;padding:.2rem .75rem;border:1px solid var(--mute);border-radius:999px;color:var(--mute);margin-bottom:1rem}
+.badge.real{background:var(--gold);border-color:var(--gold);color:#1d1a16}
+.card .go{font-weight:600;color:var(--goldtext);text-decoration:underline;text-underline-offset:4px}
+.chips{display:flex;gap:.4rem;flex-wrap:wrap;margin:.5rem 0 1.25rem;padding:0;list-style:none}
+.chips li{font-size:.85rem;background:var(--bg);border:1px solid var(--line);padding:.1rem .65rem;border-radius:999px}
+/* approach */
+.band{background:var(--band);color:var(--bandink)}
+.band .mute{color:var(--bandmute)}
+.tabs{display:flex;flex-wrap:wrap;gap:.5rem 1.75rem;margin:2.5rem 0 2rem;border-bottom:1px solid #4a453f}
+.tabs button{font:600 1.05rem Figtree,sans-serif;background:none;border:0;color:var(--bandmute);padding:.75rem 0;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--bandink);border-color:#D4A94F}
+.tabs button:hover{color:var(--bandink)}
+.tabs button:focus-visible{outline-color:#D4A94F}
+.panel{display:grid;gap:1.5rem 4rem;animation:in .35s ease}
+@media(min-width:800px){.panel{grid-template-columns:1fr 1fr}}
+.panel h3{font-size:clamp(1.7rem,3.4vw,2.4rem)}
+.panel p{font-size:1.1rem;max-width:34rem}
+.panel .proj{border-left:3px solid #D4A94F;padding-left:1rem;color:var(--bandmute);font-size:1rem}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+/* contact */
+.contact h2{font-size:clamp(2.4rem,6vw,4.5rem)}
+.contact p{max-width:34rem;font-size:1.15rem;color:var(--mute)}
+.cta{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--mute);font-size:.95rem}
+/* case study */
+.case{padding:clamp(2rem,6vw,4rem) 0 clamp(3rem,8vw,6rem)}
+.back{display:inline-block;margin-bottom:2rem;color:var(--goldtext);font-weight:600}
+.case h1{font-size:clamp(2.2rem,6vw,4.2rem);margin-bottom:1rem}
+.lead{font-size:1.3rem;color:var(--mute);max-width:40rem}
+.notice{border-left:4px solid var(--gold);background:var(--surface);padding:1rem 1.25rem;margin:2rem 0 1rem;max-width:44rem}
+.cs{padding:2.5rem 0 0;border-top:1px solid var(--line);margin-top:2.5rem;display:grid;gap:1rem 4rem}
+@media(min-width:820px){.cs{grid-template-columns:1fr 1.7fr}}
+.cs h2{font-size:1.7rem}
+.cs .body>*:last-child{margin-bottom:0}
+.cs ul{padding-left:1.2rem;margin:0 0 1em}
+.cs li{margin-bottom:.4rem}
+.samples{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:1rem}
+.post{background:var(--surface);border:1px solid var(--line);border-radius:2px 18px 2px 18px;padding:1.25rem}
+.post h3{font:600 1rem Figtree,sans-serif;color:var(--goldtext);margin-bottom:.5rem;letter-spacing:0}
+.post p{margin:0;font-size:.98rem}
+.tw{overflow-x:auto;margin-top:1rem}
+table{border-collapse:collapse;width:100%;min-width:30rem;font-size:.95rem}
+th,td{text-align:left;padding:.65rem .75rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--mute)}
+.next{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+[hidden]{display:none!important}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#top">Evelina</a>
+  <nav aria-label="Main"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#approach">Approach</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="home">
+  <div class="wrap hero" id="top">
+    <p class="who" id="who"></p>
+    <h1 id="headline"></h1>
+    <div class="hero-row"><p id="intro"></p><a class="btn" href="#projects">Explore my projects</a></div>
+    <figure class="fig" id="fig" title="Click to replay" style="margin-bottom:0">
+      <svg viewBox="0 0 1000 220" role="img" aria-label="A tangled gold line that straightens out and climbs upward, showing ideas turning into a plan and then growth."><path id="line" d=""/><circle id="dot" r="7" cx="0" cy="0"/></svg>
+      <figcaption><span>The messy start</span><span>The plan</span><span>The growth</span></figcaption>
+    </figure>
+  </div>
+
+  <section id="about"><div class="wrap about">
+    <h2>About me</h2>
+    <div id="aboutText"></div>
+  </div></section>
+
+  <section id="skills" style="padding-top:0"><div class="wrap">
+    <h2>Skills</h2>
+    <p class="mute" style="max-width:36rem;margin-top:1rem">I’ve separated what I’ve already put into practice from what I’m still building. Tags link to the project where I used each skill.</p>
+    <div class="skills">
+      <div class="grp"><h3>Practised in my projects</h3><p>Applied in concept work or in my own brand.</p><div id="done"></div></div>
+      <div class="grp learn"><h3>Learning right now</h3><p>Part of my course and independent study.</p><div id="learn"></div></div>
+    </div>
+  </div></section>
+
+  <section id="projects" style="padding-top:0"><div class="wrap">
+    <h2>Projects</h2>
+    <p class="mute" style="max-width:36rem;margin-top:1rem">Two concept projects for fictional businesses, and one real brand I’m building. Each is labelled for what it is.</p>
+    <div class="list" id="cards"></div>
+  </div></section>
+
+  <section id="approach" class="band"><div class="wrap">
+    <h2>How I approach a marketing challenge</h2>
+    <p class="mute" style="max-width:36rem;margin-top:1rem">Five steps, in order. Select a step to see what it means in practice.</p>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div id="panel" role="tabpanel" class="panel"></div>
+  </div></section>
+
+  <section id="contact" class="contact"><div class="wrap">
+    <h2>Let’s talk.</h2>
+    <p style="margin-top:1.25rem" id="contactText"></p>
+    <div class="cta"><a class="btn" id="mail" href="#">Email me</a><a class="btn alt" id="li" href="#" target="_blank" rel="noopener">Find me on LinkedIn</a></div>
+  </div></section>
+</main>
+
+<main id="case" class="case" hidden></main>
+
+<footer><div class="wrap"><span id="foot"></span></div></footer>
+
+<script>
+/* ====================================================================
+   EDIT YOUR CONTENT HERE. Change the text between the quote marks.
+   Keep the quote marks and commas. Save, then refresh the page.
+   ==================================================================== */
+const SITE = {
+  name: "Evelina",
+  email: "your.email@example.com",                          // PLACEHOLDER: add your real email
+  linkedin: "https://www.linkedin.com/in/your-profile",     // PLACEHOLDER: add your LinkedIn link
+  who: "Evelina, Level 2 Digital Marketing student, London",
+  headline: ["Creative Thinking.", "Digital Strategy.", "Real Growth."],
+  intro: "I’m learning digital marketing by doing it: researching audiences, planning campaigns and building a brand of my own from scratch.",
+  about: [
+    "I’m Evelina, and I’m studying Level 2 Digital Marketing in London. I’m learning through my course, my own research and hands-on projects, and I’m most interested in the place where creative ideas meet a clear strategy.",
+    "Alongside my studies I’m building Golden Mess, my own lifestyle brand. It gives me a real project to test what I learn: audience research, branding, website planning and content ideas.",
+    "I’m early in my career, so I’d rather show you how I think than overstate what I’ve done. Everything on this site is labelled as concept work or work in progress. I’m looking for junior roles, internships and freelance projects where I can keep learning and be useful from day one."
+  ],
+  done: [
+    {n:"Social media marketing", d:"Campaign idea, content pillars and a four-week posting plan.", u:["social-campaign","golden-mess"]},
+    {n:"Content creation and strategy", d:"Planning what to say, where, and why, for three different audiences.", u:["social-campaign","seo-strategy","golden-mess"]},
+    {n:"Digital marketing research", d:"Audience assumptions, search intent and competitor thinking.", u:["seo-strategy","golden-mess"]},
+    {n:"SEO", d:"Keyword themes, page mapping and on-page copy for a concept site.", u:["seo-strategy"]},
+    {n:"Website design and development", d:"Planning the Golden Mess site and building this portfolio.", u:["golden-mess"]},
+    {n:"AI tools and automation", d:"Using AI to speed up drafts and ideas, with my own judgement on top.", u:["golden-mess"]}
+  ],
+  learn: [
+    {n:"Email marketing", d:"Welcome emails, list building and consent."},
+    {n:"Analytics and reporting", d:"Reading the numbers and turning them into next steps."},
+    {n:"Automation workflows", d:"Connecting tools so repeat tasks run themselves."}
+  ],
+  approach: [
+    {n:"Research", h:"Understand people before planning anything.", p:"I start with who the audience is, what they search for and watch, and what competitors already do. I note what I know, what I’m assuming and what I still need to check.", e:"In the SEO concept, I grouped searches by intent before choosing any pages."},
+    {n:"Creativity", h:"Find an idea worth repeating.", p:"A good campaign has one clear idea that can show up in many formats. I sketch several routes, then choose the one that fits the audience and the budget.", e:"In the social concept, “The Slow Hour” became posts, stories and an in-café prompt."},
+    {n:"Strategy", h:"Decide what to do, and what not to do.", p:"I turn research and ideas into goals, priorities and a simple plan: who we’re talking to, on which channels, with which message, in what order.", e:"For Golden Mess, I’m starting small and adding channels only when each one has a purpose."},
+    {n:"Execution", h:"Make it real, then make it consistent.", p:"I draft the content, build the pages and set up a realistic schedule. I use AI tools to speed things up, and I edit everything so it still sounds like the brand.", e:"Golden Mess website pages and content ideas are being built step by step."},
+    {n:"Measurement", h:"Decide how you’ll know it worked.", p:"Before launching, I choose a few meaningful measures and what I’ll do with them. Then I review, learn and adjust.", e:"Both concept projects include a measurement plan. No results are claimed because neither has run."}
+  ],
+  contact: "If you have a junior role, an internship or a small freelance project, I’d love to hear about it. I usually reply within a few days."
+};
+
+const PROJECTS = [
+ { id:"social-campaign", title:"Social Media Marketing Campaign", sub:"Maple & Moss Café (fictional)", badge:"Concept project", real:false,
+   blurb:"A four-week Instagram campaign concept to turn a neighbourhood café’s quiet weekday afternoons into a reason to visit.",
+   tags:["Social media","Content strategy","Audience research"],
+   lead:"A concept campaign for an imaginary independent café, built to practise turning one idea into a plan, a set of posts and a way to measure it.",
+   notice:"This is a concept project. Maple & Moss Café is fictional. There are no clients, no campaign results and no performance figures on this page.",
+   sections:[
+    {h:"The brief", p:"Maple & Moss is an invented independent café in a London neighbourhood. It’s busy at weekends and quiet on weekday afternoons. The goal I set: bring in more weekday regulars over four weeks."},
+    {h:"Audience", p:"These are my starting assumptions, which a real project would test with surveys and café staff:", list:["People who work or study remotely and want somewhere calm to settle for a few hours.","Local parents after the school run.","Students who want a place to meet that isn’t too loud."]},
+    {h:"The idea: The Slow Hour", p:"Invite people to take one unhurried hour in the afternoon. Every post shows what a slow hour looks like, from a first coffee to a finished chapter, and gives people a reason to try it this week."},
+    {h:"Content pillars", list:["The Slow Hour: calm, visual moments and simple tips.","Behind the bar: how drinks and bakes are made.","Regulars: stories from the neighbourhood.","Offers: a weekday afternoon deal with a clear call to action."]},
+    {h:"Sample content", p:"Example concepts I wrote for the first week:", cards:[
+      {t:"Reel (15 seconds)", x:"Close-up of a flat white being poured, then a hand turning a page. Caption: “Weekday afternoons are for slow hours. Come and take yours.”"},
+      {t:"Carousel (4 slides)", x:"“Four ways to spend a slow hour.” Read, sketch, plan your week, do nothing at all. Final slide: afternoon offer."},
+      {t:"Story poll", x:"“What would you do with a slow hour? Read / Catch up with a friend / Work in peace.” Replies guide next week’s posts."}]},
+    {h:"How I’d measure it", p:"I’d set targets before launch, then review weekly. Nothing here has been run, so no results are claimed.", list:["Reach and saves, to see which ideas resonate.","Profile visits and link clicks, to see interest turning into action.","Offer redemptions at the till, to connect posts to visits."]}
+   ]},
+ { id:"seo-strategy", title:"SEO & Digital Marketing Strategy", sub:"Fernhill Plant Studio (fictional)", badge:"Concept project", real:false,
+   blurb:"A sample strategy to help an imaginary London houseplant shop be found by people searching for plants and plant care.",
+   tags:["SEO","Keyword research","Email marketing plan"],
+   lead:"A sample strategy for an imaginary plant shop, built to practise search research, page planning and joining SEO up with other channels.",
+   notice:"This is a concept project. Fernhill Plant Studio is fictional. Search volumes and rankings are not claimed; any real project would check them in a keyword tool.",
+   sections:[
+    {h:"The brief", p:"Fernhill is an invented online and pop-up plant shop in London. It has a new website and no search visibility. The goal I set: be found by beginners looking for plants that suit small flats."},
+    {h:"Keyword themes", p:"I grouped example searches by what the person wants, then matched each group to a page:", table:{head:["Theme","Example search","Intent","Page"],rows:[
+      ["Plant choice","low light plants for flats","Learn","Guide"],
+      ["Plant care","how often to water a snake plant","Learn","Care article"],
+      ["Buying","buy monstera plant London","Buy","Product page"],
+      ["Local","plant shop in London","Visit or buy","Home and contact page"]]}},
+    {h:"Site structure", list:["Home: who Fernhill is and what it sells.","Shop: categories for easy-care, pet-safe and low-light plants.","Guides: beginner plant guides that answer common questions.","About and contact: trust, delivery and pop-up details."]},
+    {h:"Sample on-page copy", p:"Page title: “Low-Light Houseplants for London Flats | Fernhill Plant Studio”", cards:[
+      {t:"Meta description", x:"Easy plants that cope with dim rooms. Simple care tips and nationwide delivery from Fernhill Plant Studio."},
+      {t:"H1 heading", x:"Houseplants for low-light flats"}]},
+    {h:"Joining it up", list:["Email: a welcome email with a plant-care checklist for new subscribers.","Social: short care tips that point to the guides.","Local: a complete business profile for the pop-up dates."]},
+    {h:"How I’d measure it", p:"No results are claimed. In a real project I’d review monthly:", list:["Search impressions and clicks, by page.","Rankings for the main themes.","Email sign-ups from guide pages."]}
+   ]},
+ { id:"golden-mess", title:"Golden Mess", sub:"My real brand, in development", badge:"Real project, in development", real:true,
+   blurb:"A lifestyle brand I’m building from scratch, about everyday chaos, small steps and finding the magic in the mess.",
+   tags:["Branding","Audience research","Website planning","Content strategy"],
+   lead:"Golden Mess is the brand I’m building to apply what I learn in real conditions. It’s a project in development, not an established business.",
+   notice:"Golden Mess is early-stage. There are no sales, customer numbers or testimonials on this page, and none are implied.",
+   sections:[
+    {h:"The idea", p:"A warm, funny and encouraging brand about everyday chaos and getting organised. Its line is “The mess is real. But so is the magic.” The goal is to help people take one small next step without needing life to be perfect first."},
+    {h:"Audience research", p:"My starting hypothesis is women juggling study, work, family and creative projects, who feel there’s too much to do. I’m treating it as a hypothesis, and I’m planning interviews and search research to test it before I invest heavily."},
+    {h:"Brand story", p:"The brand follows a character through three stages: Golden Mess, Building and Glow-Up. They’re stages of growth, not types of people, so anyone can see themselves somewhere along the way."},
+    {h:"Website plan", list:["Home page: a clear promise and one free resource to start with.","Free resources: small, useful tools people can use right away.","Journal: articles written around what people search for.","Shop: a space for future digital products, shown as coming soon.","About and contact."]},
+    {h:"Content strategy", list:["Short videos on Instagram (@goldenmesslife) to be found and remembered.","Journal articles to be found through search.","A free resource and email list to build a relationship, with clear consent.","Digital products come later, once I’ve tested what people actually want."]},
+    {h:"Where it stands", p:"Edit this list as things change.", list:["Brand idea, voice and visual direction: developed.","Audience research: in progress.","Website: planned, with a demo in progress.","Content: planned, not yet publishing consistently.","Products and sales: not started."]}
+   ]}
+];
+
+/* ============ Code below: only edit if you’re comfortable ============ */
+const $ = s => document.querySelector(s);
+const label = Object.fromEntries(PROJECTS.map(p => [p.id, p.id === "golden-mess" ? "Golden Mess" : p.id === "seo-strategy" ? "SEO strategy" : "Social campaign"]));
+
+$("#who").textContent = SITE.who;
+$("#headline").innerHTML = SITE.headline.map(l => `<span>${l}</span>`).join("");
+$("#intro").textContent = SITE.intro;
+$("#aboutText").innerHTML = SITE.about.map(t => `<p>${t}</p>`).join("");
+$("#done").innerHTML = SITE.done.map(s => `<div class="row"><div><h4>${s.n}</h4><p>${s.d}</p></div><div class="tags">${s.u.map(id => `<a href="#${id}">${label[id]}</a>`).join("")}</div></div>`).join("");
+$("#learn").innerHTML = SITE.learn.map(s => `<div class="row"><div><h4>${s.n}</h4><p>${s.d}</p></div></div>`).join("");
+$("#cards").innerHTML = PROJECTS.map(p => `<article class="card ${p.real ? "real" : ""}"><div><span class="badge ${p.real ? "real" : ""}">${p.badge}</span><h3><a href="#${p.id}">${p.title}</a></h3><p class="sub">${p.sub}</p></div><div><p>${p.blurb}</p><ul class="chips">${p.tags.map(t => `<li>${t}</li>`).join("")}</ul><span class="go">Read the case study</span></div></article>`).join("");
+$("#contactText").textContent = SITE.contact;
+$("#mail").href = "mailto:" + SITE.email;
+$("#li").href = SITE.linkedin;
+$("#foot").textContent = "© " + new Date().getFullYear() + " " + SITE.name + ". Concept projects are fictional and labelled as such.";
+
+/* approach tabs */
+$("#tabs").innerHTML = SITE.approach.map((a, i) => `<button role="tab" id="t${i}" aria-selected="${i === 0}" aria-controls="panel" data-i="${i}">${i + 1}. ${a.n}</button>`).join("");
+function showStep(i) {
+  const a = SITE.approach[i];
+  document.querySelectorAll("#tabs button").forEach((b, j) => b.setAttribute("aria-selected", j === i));
+  const pn = $("#panel");
+  pn.setAttribute("aria-labelledby", "t" + i);
+  pn.style.animation = "none"; pn.offsetHeight; pn.style.animation = "";
+  pn.innerHTML = `<h3>${a.h}</h3><div><p>${a.p}</p><p class="proj">${a.e}</p></div>`;
+}
+$("#tabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b) showStep(+b.dataset.i); });
+showStep(0);
+
+/* case study pages */
+function renderCase(c) {
+  const next = PROJECTS[(PROJECTS.indexOf(c) + 1) % PROJECTS.length];
+  const sec = s => `<section class="cs"><h2>${s.h}</h2><div class="body">${s.p ? `<p>${s.p}</p>` : ""}${s.list ? `<ul>${s.list.map(x => `<li>${x}</li>`).join("")}</ul>` : ""}${s.cards ? `<div class="samples">${s.cards.map(k => `<article class="post"><h3>${k.t}</h3><p>${k.x}</p></article>`).join("")}</div>` : ""}${s.table ? `<div class="tw"><table><thead><tr>${s.table.head.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>${s.table.rows.map(r => `<tr>${r.map(d => `<td>${d}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}</div></section>`;
+  $("#case").innerHTML = `<div class="wrap"><a class="back" href="#projects">Back to projects</a><br><span class="badge ${c.real ? "real" : ""}">${c.badge}</span><h1>${c.title}</h1><p class="lead">${c.lead}</p><div class="notice">${c.notice}</div>${c.sections.map(sec).join("")}<div class="next"><a class="btn alt" href="#${next.id}">Next: ${next.title}</a><a class="btn" href="#contact">Get in touch</a></div></div>`;
+  document.title = c.title + " | " + SITE.name;
+}
+
+/* signature moment: a tangled line that resolves into a climbing line */
+const N = 160, W = 1000;
+const P = [];
+for (let i = 0; i <= N; i++) {
+  const u = i / N;
+  const lx = 20 + 960 * u, ly = 195 - 150 * Math.pow(u, 1.5);
+  const k = Math.pow(1 - u, 0.6);
+  const sx = lx + 90 * k * Math.sin(u * 62 + 1.3) , sy = 105 + 85 * k * Math.sin(u * 83) * Math.cos(u * 29 + .5) + (ly - 105) * u * .5;
+  P.push([sx, sy, lx, ly]);
+}
+function draw(t) {
+  let d = "", lx = 0, ly = 0;
+  P.forEach((p, i) => {
+    const u = i / N, e = Math.min(1, Math.max(0, (t * 1.5 - u) / 0.5)), s = e * e * (3 - 2 * e);
+    lx = p[0] + (p[2] - p[0]) * s; ly = p[1] + (p[3] - p[1]) * s;
+    d += (i ? "L" : "M") + lx.toFixed(1) + " " + ly.toFixed(1);
+  });
+  $("#line").setAttribute("d", d);
+  $("#dot").setAttribute("cx", lx); $("#dot").setAttribute("cy", ly);
+}
+let raf;
+function play() {
+  cancelAnimationFrame(raf);
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return draw(1);
+  const t0 = performance.now() + 500;
+  const step = now => { const t = Math.min(1, Math.max(0, (now - t0) / 3200)); draw(t); if (t < 1) raf = requestAnimationFrame(step); };
+  draw(0); raf = requestAnimationFrame(step);
+}
+$("#fig").addEventListener("click", play);
+
+/* simple router: #project-id shows a case study, anything else shows the home page */
+let started = false;
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  const c = PROJECTS.find(p => p.id === h);
+  $("#home").hidden = !!c; $("#case").hidden = !c;
+  if (c) { renderCase(c); window.scrollTo(0, 0); return; }
+  document.title = SITE.name + " | Digital Marketing Portfolio";
+  const el = h && document.getElementById(h);
+  if (el) el.scrollIntoView(); else if (started) window.scrollTo(0, 0);
+  if (!started) { started = true; play(); }
+}
+addEventListener("hashchange", route);
+route();
+</script>
+</body>
+</html>
